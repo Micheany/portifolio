@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #E08B98;
+    color: #FEFBF1;
+}
+
+#perfil{
+    width: 150px;
+    height: 150px;
+}
+
+#header{
+    background-color:#FEFBF1 ;
+    color: #337979;
+}
+
+h1{
+    font-family: 'Yeseva One', cursive;
+    color: #337979;
+    font-size: 50px;
+    display: block;
+    margin-left: 50px;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    color: #FEFBF1;
+    display: block;
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+.bold{
+    font-weight:400;
+}
