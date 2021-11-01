@@ -1,7 +1,7 @@
 *{
     margin:0;
     text-decoration: none;
-
+    
 }
 
 body{
@@ -9,30 +9,40 @@ body{
     color: #FEFBF1;
 }
 
-#perfil{
-    width: 150px;
-    height: 150px;
-}
-
 #header{
     background-color:#FEFBF1 ;
     color: #337979;
 }
 
+#container{
+    margin: 0 auto;
+}
+
+
 h1{
     font-family: 'Yeseva One', cursive;
     color: #337979;
     font-size: 50px;
-    display: block;
     margin-left: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#perfil{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: #FEFBF1;
 }
 
 p{
     font-family: 'Quicksand', sans-serif;
     color: #FEFBF1;
-    display: block;
+    display: inline-block;
     max-width: 600px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 .bold{
