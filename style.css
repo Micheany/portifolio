@@ -1,5 +1,55 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     text-decoration: none;
-    
+}
+
+body {
+    background-color: rgb(49, 53, 58);
+    color: rgb(223, 222, 222);
+    font-family: Prompt, sans-serif;
+}
+
+header {
+    background-color: rgb(223, 222, 222);
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+main {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.presentation {
+    width: 400px;
+}
+
+.name {
+    font-size: 40px;
+    color: rgb(251, 115, 178);
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 25px;
+    color: rgb(34, 169, 152);
+    font-weight: 300;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.button-linkedin {
+    background: rgb(34, 169, 152);
+    border-radius: 5px;
 }
